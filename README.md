@@ -2,8 +2,10 @@
 
 Automated processing of tree image datasets in Agisoft Metashape. The resulting point clouds are used for further analysis in R to determine bark roughness at breast height.
 
-Bachelor thesis
-Author: Johannes Senn
+Developed for a Bachelor thesis
+
+Author of the repository: Johannes Senn
+
 Contributor: Claude (Anthropic), AI assistant
 
 ## Contents
@@ -22,6 +24,9 @@ This defines the local coordinate system of all results:
 - Units in metres, z points up, z = 0 is the ground
 - The cube touches the stem with its face y = 0, the stem lies in −y direction
 - Cube extent: x −0.094 to 0, y 0 to 0.072, z 1.228 to 1.3
+
+<img width="5184" height="3456" alt="IMG_4660" src="https://github.com/user-attachments/assets/8234ea62-308c-4578-9e58-4dfd09aa4140" />
+
 
 ## Requirements
 
@@ -96,6 +101,8 @@ Columns of `log.txt`:
 | `status`, `message` | `ok`, or `error` with the error message |
 
 If a tree fails, it is logged with `status = error` and the script continues with the next tree.
+
+<img width="910" height="736" alt="image" src="https://github.com/user-attachments/assets/b71aedb4-b705-4ced-a99a-509995a618c8" />
 
 ### Notes
 
