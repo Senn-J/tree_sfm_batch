@@ -1,7 +1,7 @@
 """
 Batch processing of tree image datasets in Agisoft Metashape
 
-Bachelor thesis
+Developed for a supervised Bachelor thesis
 Author:       Johannes Senn
 Contributor:  Claude (Anthropic), AI assistant
 Date:         2026-10-19
